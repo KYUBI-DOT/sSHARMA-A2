@@ -1,19 +1,20 @@
 //Abstract class
-public abstract class person {
+public abstract class Person {
     private String name;
     private int age;
     private String ContactNumber;
 
 
  // Default constructor which performs nothing
- public person{
+ public Person(){
+    
     
 }
  //Parameterized constructor
- public person(String name, int age, String ContactNumber) {
+ public Person(String name, int age, String ContactNumber) {
     this.name = name;
     this.age = age;
-    this.email = email;
+    this.ContactNumber = ContactNumber;
  }
 
 
@@ -39,7 +40,8 @@ public void setAge(int age) {
 }
 
 public String getContactNumber() {
-    retun ContactNumber;
+    return ContactNumber;
+
 }
 
 
