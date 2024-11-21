@@ -1,6 +1,6 @@
 //Employee class
 //Extends the person class
- public class Employee extends person{
+ public class Employee extends Person{
     private String jobTitle;
     private double salary;
 
