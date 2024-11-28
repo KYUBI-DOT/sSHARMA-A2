@@ -8,7 +8,7 @@ public class Visitor extends Person {
     public static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
     // Default constructor
-    public Visitor() {
+    public Visitor(String alice, int par, String female, String tickeT001, boolean par1) {
     }
 
     // Parameterized constructor
